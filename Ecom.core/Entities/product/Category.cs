@@ -10,6 +10,6 @@ namespace Ecom.core.Entities.product
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public ICollection<Product> products { get; set; } = new HashSet<Product>();
+        //public ICollection<Product> products { get; set; } = new HashSet<Product>();
     }
 }
